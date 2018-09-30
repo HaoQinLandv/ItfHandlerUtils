@@ -1,1 +1,1 @@
-ItfHandler定义
+通用接口handler的定义
