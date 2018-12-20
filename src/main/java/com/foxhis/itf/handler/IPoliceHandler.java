@@ -53,4 +53,20 @@ public interface IPoliceHandler
 	 *                key =msg,value ="错误内容"
 	 */
 	public Map<String, Object> deleteXMLFile(boolean issuccess,String url);
+	
+	
+	
+	/**
+	  * 入住上传客人信息数据到旅业
+	 * @param input
+	 * @return
+	 */
+	public Map<String, Object> exeUpLoadPersonInfo(Map<String, Object> input);
+	
+	/**
+	 * 退房同步客人信息到旅业
+	 * @param input
+	 * @return
+	 */
+	public Map<String, Object> exeLeaveHotel(Map<String, Object> input);
 }
