@@ -2,11 +2,14 @@ package com.foxhis.itf.handler;
 
 import java.util.Map;
 
+import com.foxhis.itf.suphander.IHander;
+
 /**
  * Hello world!
  *
  */
-public interface IVODHandler {
+public interface IVODHandler extends IHander
+{
 	/***
 	 * 入住
 	 * 
