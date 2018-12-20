@@ -3,13 +3,13 @@ package com.foxhis.itf.handler;
 import java.util.List;
 import java.util.Map;
 
-import com.foxhis.itf.suphander.IHander;
+import com.foxhis.itf.suphandler.IHandler;
 
 /**
  * 公安通用接口
  *
  */
-public interface IPoliceHandler  extends IHander
+public interface IPoliceHandler  extends IHandler
 {
 	/**
 	 * 扫描获取xml

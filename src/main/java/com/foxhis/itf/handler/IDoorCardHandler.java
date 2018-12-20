@@ -6,7 +6,7 @@ package com.foxhis.itf.handler;
 
 import java.util.Map;
 
-import com.foxhis.itf.suphander.IHander;
+import com.foxhis.itf.suphandler.IHandler;
 
 /**
  * 
@@ -32,7 +32,7 @@ import com.foxhis.itf.suphander.IHander;
  * @see
  * @since 1.0
  */
-public interface IDoorCardHandler extends IHander{
+public interface IDoorCardHandler extends IHandler{
 	/**
 	 * 读卡
 	 * 
