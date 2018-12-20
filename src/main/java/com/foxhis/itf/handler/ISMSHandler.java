@@ -2,14 +2,13 @@ package com.foxhis.itf.handler;
 
 import java.util.Map;
 
-import com.foxhis.itf.suphandler.IHandler;
+
 
 /**
  * 短信通用接口!
  *
  */
-public interface ISMSHandler extends IHandler
-{
+public interface ISMSHandler{
 	/**
 	 * 发送短信
 	 * 
