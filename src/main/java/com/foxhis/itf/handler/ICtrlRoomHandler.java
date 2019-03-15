@@ -27,5 +27,14 @@ public interface ICtrlRoomHandler {
 	 * @return
 	 */
 	public Map<String, Object> ctrlroomCkot(Map<String, Object> input);
+	
+	
+	/**
+	 * 通过第三方指令获取房态信息
+	 * @param cmd 指令名称
+	 * @return 返回json数据格式
+	 */
+	public String getRmSta(String cmd);
+	
 
 }
